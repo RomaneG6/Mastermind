@@ -4,6 +4,7 @@ namespace mastermind
 {
     class Program
     {
+        //cette fonction est le début de mon programme
         static void Main(string[] args)
         {
             string combinaison;
@@ -15,7 +16,7 @@ namespace mastermind
             combinaison = Console.ReadLine();
         }
 
-
+        //cette fonction permet à l'ordi de choisir une combinaison
         static void ChoixCombi(out int[] combi) {
             combi = new int[4];
             Random rnd = new Random();
